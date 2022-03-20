@@ -8,7 +8,7 @@ echo -e "${Green_font}
 #======================================
 # Project: shbox
 # Version: 0.0.1
-# Blog:   https://vpsxb.net
+# Blog:   https://vpsxb.net/1642/
 #======================================
 ${Font_suffix}"
 
