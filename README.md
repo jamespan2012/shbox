@@ -10,7 +10,7 @@ https://github.com/jamespan2012/shbox
 
  - 0.0.1
  
- **一键脚本**
+ **使用**
  
     #下载使用脚本
     wget https://raw.githubusercontent.com/jamespan2012/shbox/main/shbox.sh -O shbox.sh && bash shbox.sh
