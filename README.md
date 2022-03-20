@@ -6,6 +6,7 @@ shbox
 仅限Debian系系统，本人能力有限，其他系统请自行修改。
 https://github.com/jamespan2012/shbox
 
+![image](https://github.com/jamespan2012/shbox/blob/main/dependencies/shbox.png)
 **更新**
 
  - 0.0.1
