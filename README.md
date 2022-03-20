@@ -7,7 +7,7 @@ shbox
 
 https://github.com/jamespan2012/shbox
 
-![image](https://github.com/jamespan2012/shbox/blob/main/dependencies/shbox.png)
+![image](https://github.com/jamespan2012/shbox/blob/main/dependencies/shbox.jpg)
 
 **更新**
 
