@@ -26,7 +26,7 @@ https://github.com/jamespan2012/shbox
 所有脚本都来源于公开项目
 
 - 1.首次运行会安装常用命令，安装tcping、speedtest，拉取doubi、Port-forwarding、Multi-EasyGost、EasyRealM以便于使用gost、realm。
-- 2.docker版x-ui将容器目录/etc/x-ui/挂载到本地/root/x-ui/db/，将容器目录/root/cert/挂载到本地/root/x-ui/cert/。
+- 2.要使用docker版x-ui，请先安装docker，docker版x-ui将容器目录/etc/x-ui/挂载到本地/root/x-ui/db/，将容器目录/root/cert/挂载到本地/root/x-ui/cert/。
 - 3.DD脚本，如果系统重启后失联，请进vnc编辑/etc/network/interfaces文件注释掉allow-hotplug ensX，添加一行auto ensX。
 
 输入数字选择需要进行的测试。
