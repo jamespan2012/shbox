@@ -4,6 +4,7 @@ shbox
 
 此脚本本人常用脚本的集合，个人使用了一段时间，感觉还不错，但是大部分脚本和文件从自己的服务器拉取的，便修改了一下，去除了从个人服务器拉取的脚本和文件，目前几乎所有脚本和文件依赖都拉取自github。
 仅限Debian系系统，本人能力有限，其他系统请自行修改。
+
 https://github.com/jamespan2012/shbox
 
 ![image](https://github.com/jamespan2012/shbox/blob/main/dependencies/shbox.png)
