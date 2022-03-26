@@ -25,6 +25,8 @@ shbox
   
   4.添加docker版v2ray/xray安装(docker中的目录挂载在宿主机/root/v2ray和/root/xray目录，需自行修改其中的配置文件)
   
+  5.添加ICMP回程测试
+  
  - 0.0.1
 
 **功能说明**
