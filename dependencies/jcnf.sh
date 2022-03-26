@@ -8,8 +8,7 @@ echo -e "${Green_font}
 #======================================
 # Project: jctestrace
 # Version: 0.0.2
-# Blog:   https://ybfl.xyz
-# Github: https://github.com/Netflixxp
+# Blog:   https://vpsxb.net
 #======================================
 ${Font_suffix}"
 
