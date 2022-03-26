@@ -16,9 +16,13 @@ shbox
 **更新**
 
  - 0.0.2
+ 
   1.添加魔法上网二级菜单
+  
   2.替换LemonBench脚本地址
+  
   3.添加建站环境安装(宝塔、lnmp、oneinstack安装，screen运行，若ssh断开重连后 screen -r 即可继续安装)
+  
   4.添加docker版v2ray/xray安装(docker中的目录挂载在宿主机/root/v2ray和/root/xray目录，需自行修改其中的配置文件)
   
  - 0.0.1
