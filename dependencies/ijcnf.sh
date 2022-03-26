@@ -6,7 +6,7 @@ Info="${Green_font}[Info]${Font_suffix}"
 Error="${Red_font}[Error]${Font_suffix}"
 echo -e "${Green_font}
 #======================================
-# Project: jctestrace
+# Project: besttrace(ICMP)
 # Version: 0.0.2
 # Blog:   https://vpsxb.net
 #======================================
