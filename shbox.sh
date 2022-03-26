@@ -7,7 +7,7 @@ Error="${Red_font}[Error]${Font_suffix}"
 echo -e "${Green_font}
 #======================================
 # Project: shbox
-# Version: 0.0.1
+# Version: 0.0.2
 # Blog:    https://vpsxb.net/1642/
 # usage:   bash <(curl -fsSL https://raw.githubusercontent.com/jamespan2012/shbox/main/shbox.sh)
 #======================================
