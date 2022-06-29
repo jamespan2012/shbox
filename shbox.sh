@@ -8,8 +8,8 @@ echo -e "${Green_font}
 #======================================
 # Project: shbox
 # Version: 0.0.2
-# Blog:    https://vpsxb.net/1642/
-# usage:   bash <(curl -fsSL https://raw.githubusercontent.com/jamespan2012/shbox/main/shbox.sh)
+# 推荐机场:   垃圾场加速器
+# 注册地址:   https://lajichang.eu/#/register?code=68NY1XOw
 #======================================
 ${Font_suffix}"
 
