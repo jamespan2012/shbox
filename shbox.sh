@@ -201,11 +201,18 @@ set_alternative(){
 	[[ "${lnmp}" == "1" ]] && bt
 	[[ "${lnmp}" == "2" ]] && lnmp
 	[[ "${lnmp}" == "3" ]] && oneinstack
+	[[ "${lnmp}" == "4" ]] && aapanel
 }
 
 bt(){
 
 	bash <(curl -fsSL http://download.bt.cn/install/install-ubuntu_6.0.sh)
+	
+}
+
+aapanel(){
+
+	wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh aapanel
 	
 }
 
@@ -228,10 +235,16 @@ oneinstack(){
 
 }
 
+update_debian(){
+
+	bash <(curl -sSL https://raw.githubusercontent.com/wikihost-opensource/linux-toolkit/main/system-upgrade/debian.sh)
+	
+}
+
 check_root
 
 echo -e "${Info} 选择你要使用的功能: "
-echo -e "1.首次运行\n2.安装docker\n3.安装bbr\n4.魔法上网\n5.回程路由(TCP)\n6.回程路由(ICMP)\n7.流媒体测试\n8.superbench\n9.yabs\n10.LemonBench\n11.IO测试\n12.全网测速\n13.探针安装\n14.本地IP\n15.极光面板\n16.闲蛋面板\n17.DD系统\n18.建站环境"
+echo -e "1.首次运行\n2.安装docker\n3.安装bbr\n4.魔法上网\n5.回程路由(TCP)\n6.回程路由(ICMP)\n7.流媒体测试\n8.superbench\n9.yabs\n10.LemonBench\n11.IO测试\n12.全网测速\n13.探针安装\n14.本地IP\n15.极光面板\n16.闲蛋面板\n17.DD系统\n18.建站环境\n19.升级Debian"
 read -p "输入数字以选择:" function
 
 	while [[ ! "${function}" =~ ^([1-9]|1[0-8])$ ]]
@@ -276,6 +289,8 @@ read -p "输入数字以选择:" function
 		ddxt
 	elif [[ "${function}" == "18" ]]; then
 		lnmps
+	elif [[ "${function}" == "19" ]]; then
+		update_debian
 	else
 		echo -e "${Info} 请重新选择" && read -p "输入数字以选择:" function
 	fi
