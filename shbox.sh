@@ -187,10 +187,10 @@ lnmps(){
 }
 
 select_alternative(){
-	echo -e "${Info} 选择需要安装的lnmp: \n1.宝塔\n2.LNMP\n3.oneinstack"
+	echo -e "${Info} 选择需要安装的lnmp: \n1.宝塔\n2.LNMP\n3.oneinstack\n4.aapanel"
 	read -p "输入数字以选择:" lnmp
 
-	while [[ ! "${lnmp}" =~ ^[1-3]$ ]]
+	while [[ ! "${lnmp}" =~ ^[1-4]$ ]]
 		do
 			echo -e "${Error} 无效输入"
 			echo -e "${Info} 请重新选择" && read -p "输入数字以选择:" lnmp
