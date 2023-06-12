@@ -76,3 +76,4 @@ Aurora-Admin-Panel https://github.com/Aurora-Admin-Panel/deploy
 
 xd-panel https://sh.xdmb.xyz/xiandan/xd.sh
 
+linux-toolkit https://github.com/wikihost-opensource/linux-toolkit
