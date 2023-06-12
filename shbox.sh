@@ -292,5 +292,5 @@ read -p "输入数字以选择:" function
 	elif [[ "${function}" == "19" ]]; then
 		update_debian
 	else
-		echo -e "${Info} 请重新选择" && read -p "输入数字以选择:" function
+		echo -e "${Info} 请重新选择" && read -p "输入数字选择:" function
 	fi
