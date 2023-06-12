@@ -7,7 +7,7 @@ Error="${Red_font}[Error]${Font_suffix}"
 echo -e "${Green_font}
 #======================================
 # Project: shbox
-# Version: 0.0.2
+# Version: 0.0.3
 # 推荐机场:   垃圾场加速器
 # 注册地址:   https://my.ljcjsq.com/index.php#/register?code=OAM8uBQl
 #======================================
@@ -292,5 +292,5 @@ read -p "输入数字以选择:" function
 	elif [[ "${function}" == "19" ]]; then
 		update_debian
 	else
-		echo -e "${Info} 请重新选择" && read -p "输入数字以选择:" function
+		echo -e "${Info} 请重新选择" && read -p "输入数字选择:" function
 	fi
