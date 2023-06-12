@@ -7,7 +7,7 @@ Error="${Red_font}[Error]${Font_suffix}"
 echo -e "${Green_font}
 #======================================
 # Project: shbox
-# Version: 0.0.2
+# Version: 0.0.3
 # 推荐机场:   垃圾场加速器
 # 注册地址:   https://my.ljcjsq.com/index.php#/register?code=OAM8uBQl
 #======================================
