@@ -20,14 +20,15 @@ check_root(){
 first(){
 	
 	apt update -y
-	apt install git tmux nano vim curl net-tools wget sudo proxychains iperf3 lsof conntrack openssl unzip lsb-release jq ca-certificates python iptables -y && update-ca-certificates
+	apt install  -y git tmux screen nano vim curl net-tools wget sudo proxychains iperf3 lsof conntrack openssl unzip lsb-release jq ca-certificates bash-completion iptables netcat-openbsd && update-ca-certificates
 	bash <(curl -fsSL https://raw.githubusercontent.com/jamespan2012/shbox/main/dependencies/tcping.sh)
 	bash <(curl -fsSL https://raw.githubusercontent.com/jamespan2012/shbox/main/dependencies/bashrc.sh)
-	git clone https://github.com/ToyoDAdoubi/doubi.git
-	git clone https://github.com/hulisang/Port-forwarding.git
-	git clone https://github.com/KANIKIG/Multi-EasyGost.git
-	git clone https://github.com/seal0207/EasyRealM.git
-	bash <(curl -fsSL git.io/speedtest-cli.sh)
+	git clone https://ghproxy.com/https://github.com/iiiiiii1/doubi.git
+	git clone https://ghproxy.com/https://github.com/hulisang/Port-forwarding.git
+	git clone https://ghproxy.com/https://github.com/vpsxb/EasyRealM.git
+	git clone https://ghproxy.com/https://github.com/seal0207/EasyRealM.git
+	bash <(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/P3TERX/script/master/speedtest-cli.sh)
+	apt install python python3-pip -y
 
 }
 
