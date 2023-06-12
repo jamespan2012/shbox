@@ -247,7 +247,7 @@ echo -e "${Info} 选择你要使用的功能: "
 echo -e "1.首次运行\n2.安装docker\n3.安装bbr\n4.魔法上网\n5.回程路由(TCP)\n6.回程路由(ICMP)\n7.流媒体测试\n8.superbench\n9.yabs\n10.LemonBench\n11.IO测试\n12.全网测速\n13.探针安装\n14.本地IP\n15.极光面板\n16.闲蛋面板\n17.DD系统\n18.建站环境\n19.升级Debian"
 read -p "输入数字以选择:" function
 
-	while [[ ! "${function}" =~ ^([1-9]|1[0-8])$ ]]
+	while [[ ! "${function}" =~ ^([1-9]|1[0-9])$ ]]
 		do
 			echo -e "${Error} 缺少或无效输入"
 			echo -e "${Info} 请重新选择" && read -p "输入数字以选择:" function
