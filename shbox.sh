@@ -9,7 +9,7 @@ echo -e "${Green_font}
 # Project: shbox
 # Version: 0.0.3
 # 推荐机场:   垃圾场加速器
-# 注册地址:   https://my.ljcjsq.com/index.php#/register?code=OAM8uBQl
+# 注册地址:   https://lajic.eu/index.php#/register?code=OAM8uBQl
 #======================================
 ${Font_suffix}"
 
